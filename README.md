@@ -167,8 +167,8 @@ Every rejection names the check that failed and how to fix it. These are the one
 - **The file was written once and never revised.** A file that takes its final content from a single
   write looks like a paste. Write a draft, then edit it.
 - **The transcripts do not match the commit.** Bundle after the final commit, not before.
-- **A placeholder is still in the README.** `{{REFERRAL_CODE}}` or `{owner}` left in a badge URL fails
-  the repo check.
+- **A placeholder is still in the README.** A referral code or repository name left unfilled in a badge
+  URL fails the repo check. Search the file for double braces before you commit.
 - **The repo is private, or created before the bounty opened.** Both are checked at submission.
 - **No license.** An OSI-approved license is required on every entry.
 
